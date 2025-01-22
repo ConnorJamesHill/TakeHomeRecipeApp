@@ -5,6 +5,8 @@
 //  Created by Connor Hill on 1/21/25.
 //
 
+// nothing special here! just the entrypoint for the app.
+
 import SwiftUI
 
 @main
