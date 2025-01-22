@@ -21,9 +21,33 @@
 		5846C4D32D41A8B9003C882E /* TakeHomeRecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeRecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5846C4EC2D41AFB4003C882E /* Exceptions for "TakeHomeRecipeApp" folder in "TakeHomeRecipeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 5846C47C2D408553003C882E /* TakeHomeRecipeApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5846C4ED2D41AFB4003C882E /* Exceptions for "TakeHomeRecipeApp" folder in "Compile Sources" phase from "TakeHomeRecipeApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 5846C4792D408553003C882E /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5846C47F2D408553003C882E /* TakeHomeRecipeApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5846C4EC2D41AFB4003C882E /* Exceptions for "TakeHomeRecipeApp" folder in "TakeHomeRecipeApp" target */,
+				5846C4ED2D41AFB4003C882E /* Exceptions for "TakeHomeRecipeApp" folder in "Compile Sources" phase from "TakeHomeRecipeApp" target */,
+			);
 			path = TakeHomeRecipeApp;
 			sourceTree = "<group>";
 		};
